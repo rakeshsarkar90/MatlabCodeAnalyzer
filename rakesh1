@@ -1,0 +1,10 @@
+      
+function [E,I,F]=focus(a,z,varargin)
+z = 0; 
+            for n = 1:1:length(varargin)
+                if strcmpi(varargin{n},'z')
+                    z = varargin{n+1};
+                    disp(z)
+                end
+            end
+end
